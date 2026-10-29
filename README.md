@@ -22,3 +22,6 @@ Menu de console spatiale avec portrait de Nebula, tir glissé sur Android et att
 
 ## 0.24 — Corps et fluidité
 Rotation cohérente des cuisses, genoux, bottes, hanches et queue. Le ragdoll conserve sa pose et son élan, avec des articulations aux vrais pivots et des pieds libres de suivre la chute. Les poses des alliés et des robots sont interpolées entre les paquets réseau. Sur Android, le grappin sélectionne un point accessible proche sans exiger de visée précise; la visée VR est conservée. Les boulons suivent un drain tourbillonnant vers la main. Utiliser 0.24.0 sur tous les appareils pour bénéficier de ces corrections.
+
+## 0.25 — Combat mobile
+Les robots humanoïdes combattent au fusil et reculent si le joueur s'approche trop; les petits robots gardent leur bond. Le tir mobile permet de faire pivoter la caméra avec le doigt maintenu sur le bouton, même en glissant à l'extérieur. Les projectiles ennemis partent du canon, avec l'orientation du fusil synchronisée en coop. Grenades et chargeurs explosifs mobiles suivent un arc sous la gravité. Le lancer physique VR reste conservé. **Protocole 23 : mettre tous les appareils en 0.25.0 pour jouer ensemble.**
