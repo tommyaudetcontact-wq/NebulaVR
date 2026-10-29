@@ -19,3 +19,6 @@ Le menu ouvre un salon personnel automatiquement. La liste Même Wi-Fi utilise l
 
 ## 0.23 — Menu et représentation
 Menu de console spatiale avec portrait de Nebula, tir glissé sur Android et attaque rapide à la masse avec retour à l’arme précédente. Caméra mobile au-dessus de l’épaule droite, plus reculée. Les avatars distants gardent leur tête visible en VR; seuls les joueurs VR portent le casque. Protocole 22 : installer 0.23.0 sur tous les appareils.
+
+## 0.24 — Corps et fluidité
+Rotation cohérente des cuisses, genoux, bottes, hanches et queue. Le ragdoll conserve sa pose et son élan, avec des articulations aux vrais pivots et des pieds libres de suivre la chute. Les poses des alliés et des robots sont interpolées entre les paquets réseau. Sur Android, le grappin sélectionne un point accessible proche sans exiger de visée précise; la visée VR est conservée. Les boulons suivent un drain tourbillonnant vers la main. Utiliser 0.24.0 sur tous les appareils pour bénéficier de ces corrections.
