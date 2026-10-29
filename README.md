@@ -16,3 +16,6 @@ Les mises à jour sont détectées au lancement. Le téléchargement et l’inst
 
 ## Salons 0.22
 Le menu ouvre un salon personnel automatiquement. La liste Même Wi-Fi utilise la découverte UDP; la liste Internet utilise un annuaire hébergé avec heartbeat et expiration des salons. Rejoindre résout l’adresse sans saisie manuelle. Le trafic de jeu reste direct et dépend de la joignabilité de l’hôte (pas de relais CGNAT). Le nom et le nombre de joueurs sont visibles dans la liste; les adresses ne sont retournées que lors de la demande de jonction.
+
+## 0.23 — Menu et représentation
+Menu de console spatiale avec portrait de Nebula, tir glissé sur Android et attaque rapide à la masse avec retour à l’arme précédente. Caméra mobile au-dessus de l’épaule droite, plus reculée. Les avatars distants gardent leur tête visible en VR; seuls les joueurs VR portent le casque. Protocole 22 : installer 0.23.0 sur tous les appareils.
