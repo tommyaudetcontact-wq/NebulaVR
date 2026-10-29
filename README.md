@@ -6,7 +6,7 @@ Les APK sont distribués dans les [Releases](https://github.com/tommyaudetcontac
 
 ## Coop (jusqu’à 4)
 
-Un joueur héberge la partie, les trois autres rejoignent son adresse. Les deux plateformes utilisent le même protocole. Sur le même Wi-Fi, utiliser l’IP locale. Par Internet, utiliser l’IP publique de l’hôte avec le port UDP 24721 accessible. Le bouton UPnP tente une ouverture temporaire d’une heure sur le routeur. Si cela échoue, une redirection manuelle est nécessaire. Les connexions derrière CGNAT peuvent nécessiter un relais, absent de cette version. Il n’y a pas de migration d’hôte : si l’hôte quitte, les clients retournent au menu.
+Chaque joueur ouvre automatiquement un salon personnel au lancement. Dans le menu, choisir « Même Wi-Fi » ou « Internet », puis « Rejoindre » à côté d'un salon. L'hôte choisit le niveau et lance la partie; on peut aussi rejoindre une partie en cours. Les salons affichent leur nombre de joueurs et disparaissent après la fermeture ou l'expiration de leur présence. Le trafic de jeu reste P2P : UPnP tente l'ouverture du port de l'hôte; certains routeurs et les réseaux CGNAT peuvent bloquer cette connexion. Pas de relais ni de migration d'hôte dans cette version.
 
 ## État de la version
 
