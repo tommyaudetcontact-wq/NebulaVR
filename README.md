@@ -148,3 +148,16 @@ Nebula VR 0.35.1
 - Niveau 2 aleatoire, animations et commandes de la 0.35 conserves. Protocole 33.
 
 Les performances et le confort restent a mesurer dans le casque.
+
+
+## 0.35.2 — Camera mobile et reticule
+
+Nebula VR 0.35.2
+
+- Mobile : camera epaule rapprochee de 4 m a 2,8 m; decalage lateral reduit de 1,45 m a 0,85 m.
+- Champ de vision normal reduit de 76 a 62 degres pour attenuer la perspective grand-angle.
+- Reticule plus grand, traits blancs renforces avec contour noir et point central; taille adaptee a la resolution.
+- Grande lunette du sniper et son bouton ZOOM conserves, avec visee tactile fine et tir glisse.
+- Sons de boulons, modes et commandes VR conserves. Protocole 33.
+
+Cadrage verifie en rendu natif et controles tactiles verifies. Les performances restent a mesurer sur appareil.
