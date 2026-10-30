@@ -137,3 +137,14 @@ Nebula VR 0.35.0
 - Protocole 33 : tous les appareils doivent etre en 0.35.0.
 
 Prototype : resolution fixe conservee; 72 fps soutenus et confort des nouveaux controles restent a mesurer dans le casque. Internet P2P depend du reseau; pas de relais CGNAT.
+
+
+## 0.35.1 — Zoom mobile et ramassage
+
+Nebula VR 0.35.1
+
+- Android : bouton ZOOM dedie au sniper, pres du tir. Appuyer ouvre la grande lunette et le grossissement optique; DEZOOM permet de revenir a la vue normale. Le bouton de changement de camera garde sa fonction habituelle. Visee fine et glissement sur le bouton de tir conserves.
+- Nouveau son de boulon fourni par le joueur : Drop Coin. Legere variation de hauteur, lecture au gant et trois queues de ramassage maximum pour laisser de la place aux sons de combat. Les autres armes gardent leur hauteur sonore normale.
+- Niveau 2 aleatoire, animations et commandes de la 0.35 conserves. Protocole 33.
+
+Les performances et le confort restent a mesurer dans le casque.
