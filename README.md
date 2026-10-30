@@ -64,3 +64,16 @@ Les couleurs du blaster sont restaurées; seuls le canon et son embout rougissen
 Cinq tireurs variés occupent chaque secteur de combat, avec les petits robots en complément. La contrainte qui les ramenait au poste à proximité est levée : ils tirent, approchent et frappent au corps à corps; ils peuvent rentrer au poste après un éloignement de 60 mètres. Les caisses s'empilent de une à cinq et retombent quand un support disparaît. Le trafic suit des lignes droites rapides depuis le lointain. Le gardien volant est allongé et légèrement agrandi.
 
 Les caisses partagent leur modèle visible et les personnages immobiles sur un support statique évitent les calculs de déplacement inutiles. **Protocole 28 : utiliser 0.30.0 sur tous les appareils.** Résolution fixe conservée. Le dernier test de 0.29 donnait environ 71 fps en moyenne des relevés, avec des baisses à 64; les 72 fps soutenus de 0.30 restent à vérifier sur Quest porté.
+
+## 0.31 — Corrections de la vidéo 09:49
+
+- Robots : orientation vers le joueur en combat, tir conditionne a une orientation correcte, arret avant les bords et suppression des sauts de navigation des humanoides. Retour au poste apres un eloignement important conserve.
+- Heliopolis : rues courbes continues, une section droite, vraies traversees au grappin autour des tours, plateformes de retour agrandies, caisses hors des atterrissages, fleches de guidage. Les grandes facades plates sont remplacees par des tours a fenetres. Les petites plateformes verticales qui coupaient les monuments sont remplacees par des marches fixes.
+- Six ferries un peu plus rapides, avec des ponts elargis pour conserver leur accessibilite. Collisions ajoutees aux principaux monuments, portiques et comptoirs. Verification des caisses contre les decors solides.
+- Blaster et indicateur violets. Canon et embout passent au meme rouge lumineux a chaud; le corps conserve ses couleurs.
+- Armures lourdes : epaulette gauche, epaulette droite puis plastron se detachent selon les degats, en coop aussi. Animation de crosse amplifiee.
+- Masse : saut puis geste descendant en VR, ou attaque rapide en l'air sur mobile, declenche une frappe au sol qui detruit les piles proches.
+- Gardien encore allonge et missiles d'energie violette. Trafic decoratif accepte et musique conserves.
+- Niveau 1, procedural et coop quatre joueurs conserves. Protocole 29 : installer 0.31.0 sur tous les appareils.
+
+Resolution fixe conservee. Les tests automatiques ne certifient pas les 72 fps constants : la derniere mesure casque porte de 0.29 variait de 64 a 73 fps. Cette version reste a mesurer. Internet P2P depend du routeur; pas de relais CGNAT.
