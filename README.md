@@ -57,3 +57,10 @@ Drones et gardien Hélios possèdent de nouvelles coques biseautées, des turbin
 Deux rues contournent des bâtiments et un quatrième détour passe derrière une tour, avec un grappin optionnel, des caisses et des soins. Les plateformes de saut et les ferries sont plus petits. Les parcours ont été traversés avec collisions réelles, y compris les trois séquences principales au grappin; les ferries demandent maintenant davantage de précision et un double saut temporisé.
 
 **Protocole 27 : installer 0.29.0 sur tous les appareils pour la coop.** Résolution fixe et plafond des éclairages d'effets conservés. Les 72 fps constants ne sont pas certifiés; la version doit être mesurée dans le casque porté, en combat.
+
+## 0.30 — Grands parcours, piles de caisses et combat
+Les couleurs du blaster sont restaurées; seuls le canon et son embout rougissent à chaud. Le niveau 2 comporte désormais cinq grandes rues en virage autour de tours arrondies à fenêtres, quatre longs détours et huit ancrages optionnels, en plus des trois séquences principales au grappin. Le parcours principal s'étend sur plus de 700 mètres.
+
+Cinq tireurs variés occupent chaque secteur de combat, avec les petits robots en complément. La contrainte qui les ramenait au poste à proximité est levée : ils tirent, approchent et frappent au corps à corps; ils peuvent rentrer au poste après un éloignement de 60 mètres. Les caisses s'empilent de une à cinq et retombent quand un support disparaît. Le trafic suit des lignes droites rapides depuis le lointain. Le gardien volant est allongé et légèrement agrandi.
+
+Les caisses partagent leur modèle visible et les personnages immobiles sur un support statique évitent les calculs de déplacement inutiles. **Protocole 28 : utiliser 0.30.0 sur tous les appareils.** Résolution fixe conservée. Le dernier test de 0.29 donnait environ 71 fps en moyenne des relevés, avec des baisses à 64; les 72 fps soutenus de 0.30 restent à vérifier sur Quest porté.
