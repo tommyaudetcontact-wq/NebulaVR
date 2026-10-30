@@ -92,3 +92,17 @@ Nebula VR 0.32.0 - Video 10:51 : rails et precision.
 - Images a resolution fixe, musique, blaster violet, ragdolls, niveau 1, procedural et coop quatre joueurs conserves. Protocole 30 : utiliser 0.32.0 sur tous les appareils.
 
 Les tests automatiques ne certifient pas les 72 fps constants sur Quest. La derniere mesure casque porte exploitable de 0.29 variait de 64 a 73 fps; cette version reste a mesurer. Internet P2P depend du routeur; pas de relais CGNAT.
+
+## 0.33 — Contrôles des rails, sniper et écrans
+
+Nebula VR 0.33.0 - Corrections de la video 11:26.
+
+- Precision VR : maintien a deux mains avec orientation controlee par la main avant. Indicateur de charge sur les deux cotes, etat de chambre lisible et confirmation de pleine charge. Le tir est maintenant un rayon lumineux instantane, avec recul proportionnel a la charge.
+- Recharge : ouvrir la chambre avec la culasse, prendre une cartouche visible a la ceinture, l'inserer dans la chambre ouverte puis refermer et armer. Chambre animee et cartouche visible dans la main, y compris en coop. Sequence mobile adaptee en 2,8 secondes.
+- Deux parcours de rails conserves, un au debut et un plus loin. Voies espacees de 3,1 metres. Fonctionnement dans les deux sens. Un saut simple suit la meme voie; il faut sauter ET orienter le joystick pour changer de voie. Une collision avec un obstacle provoque le ragdoll et le retour au checkpoint.
+- Les deux autres passages sont remplaces par des plateformes et six nouveaux points de grappin. Les detours au grappin apprecies restent en place.
+- Snipers ennemis : fusil tenu a deux mains devant le corps, visee annoncee par un fin laser, rayon puissant et 5,5 secondes entre les tirs. Les gestes des bras et l'arme sont synchronises en coop.
+- Publicites : sequence tournante de 24 images rendues du vaisseau, animee directement sur une surface d'ecran. Aucun vaisseau ne depasse maintenant du panneau. Pas de decodage video en temps reel.
+- Resolution fixe, nuages sous la ville, trafic, musique, autres armes et modes conserves. Protocole 31 : mettre tous les appareils en 0.33.0 pour la coop.
+
+Les 72 fps soutenus restent a mesurer sur cette version dans le casque porte. Les tests locaux et les captures PC ne les certifient pas. Internet P2P depend du routeur; pas de relais CGNAT.
