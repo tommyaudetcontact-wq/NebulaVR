@@ -35,3 +35,7 @@ Le tir mobile conserve son doigt même quand le pouce de déplacement est relâc
 Le blaster fonctionne désormais à la chaleur : douze tirs continus provoquent la surchauffe, le canon rougit puis refroidit progressivement, sans recharge manuelle. Le lance-pierre peut faire cinq rebonds, soit six contacts. Le niveau 2 propose des rampes sans petites marches bloquantes, deux enchaînements de plateformes en translation et un gardien volant qui tire des missiles.
 
 Arbres remplacés par des monuments orbitaux, panneaux flottants et textes décoratifs retirés, trafic aérien placé dans des couloirs dégagés. Le thème musical fourni pour Héliopolis joue en boucle durant la mission. Les recherches de sol et de chemins des IA sont mises en cache; résolution fixe et effets de tir conservés. La mesure de 0.26.0 donnait 64 à 73 fps par échantillon sur Quest : elle ne certifie pas les 72 fps constants de cette nouvelle version. **Protocole 25 : utiliser 0.27.0 sur tous les appareils.**
+
+## 0.27.1 — Trafic allégé
+Six vaisseaux au total : deux passages occasionnels proches et quatre routes lointaines au-dessus des bâtiments. Géométries des effets et collisions des ragdolls partagées en mémoire; éclairages temporaires limités sur Quest. Résolution fixe conservée. La mesure de 0.27.0 variait de 64 à 72 fps : les 72 fps constants ne sont pas encore validés. Compatible avec le protocole 25.
+
