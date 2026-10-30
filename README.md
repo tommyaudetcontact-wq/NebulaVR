@@ -161,3 +161,18 @@ Nebula VR 0.35.2
 - Sons de boulons, modes et commandes VR conserves. Protocole 33.
 
 Cadrage verifie en rendu natif et controles tactiles verifies. Les performances restent a mesurer sur appareil.
+
+
+## 0.36 — Salons prives et synchronisation
+
+Nebula VR 0.36.0 - Salons prives et commandes VR
+
+- Nouveau lobby prive : creation explicite d'un salon, code a huit caracteres, quatre places, plateforme Quest/Android affichee et etat PRET de chaque joueur. Le code est requis pour rejoindre; les salons prives ne figurent pas dans l'annuaire public. Clavier de saisie dans le menu VR.
+- L'hote lance la partie lorsque tous les joueurs sont prets. Le jeu attend le chargement de l'escadron avant de commencer; les parametres du niveau et la graine sont partages. Les echecs affichent un motif (code, version, salon complet, connexion).
+- Connexion locale prioritaire pour un salon trouve par Internet sur le meme Wi-Fi, afin d'eviter les problemes de bouclage du routeur. Tentative de route alternative si disponible, renouvellement d'un salon expire et fermeture propre de l'ancienne connexion.
+- Marteau : le relachement du grip verifie le geste de lancer avant de ranger l'arme. Lancer physique et lancer a la gachette conserves; le gun revient au relachement.
+- Lance-pierre : le grip pres de la poche ou du manche prend la priorite sur le marteau. Il reste utilisable pendant que le marteau vole. Ailleurs, le grip droit appelle le marteau.
+- Camera mobile, lunette, reticule, sons et niveaux de la 0.35.2 conserves.
+- Protocole 34 : installer 0.36.0 sur tous les appareils.
+
+Validation : commandes VR simulees, annuaire prive en production, salon et demarrage a quatre instances natives locales. Le test reel Quest + telephone et deux reseaux Internet distincts reste a confirmer. Internet P2P depend toujours de l'ouverture UDP du routeur; pas de relais CGNAT. Les 72 fps soutenus ne sont pas certifies.
