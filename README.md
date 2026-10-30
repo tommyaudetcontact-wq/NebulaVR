@@ -176,3 +176,18 @@ Nebula VR 0.36.0 - Salons prives et commandes VR
 - Protocole 34 : installer 0.36.0 sur tous les appareils.
 
 Validation : commandes VR simulees, annuaire prive en production, salon et demarrage a quatre instances natives locales. Le test reel Quest + telephone et deux reseaux Internet distincts reste a confirmer. Internet P2P depend toujours de l'ouverture UDP du routeur; pas de relais CGNAT. Les 72 fps soutenus ne sont pas certifies.
+
+
+## 0.37 — Presence et parties ouvertes
+
+Nebula VR 0.37.0 — Joueurs, invitations et parties ouvertes
+
+- Liste des joueurs presents actualisee automatiquement, invitations avec acceptation/refus et salons publics jusqu a quatre joueurs Quest/Android.
+- Arrivee dans une partie deja lancee sans redemarrer celle de l hote; reprise du checkpoint, des objectifs et des ennemis elimines.
+- Routage local prioritaire sur le meme Wi-Fi, y compris avec adresses Internet IPv6 et IPv4 differentes; delais de connexion et diagnostics explicites.
+- Chargement illustre en fondu avec conseils et progression.
+- Pause : reprendre, inviter, ouvrir la partie, quitter seul ou revenir au salon avec le groupe. Pause complete en solo, jeu reseau maintenu en coop.
+- Volumes bruitages et musique independants, memorises sur chaque appareil.
+- Gameplay, camera mobile, armes et commandes de la 0.36 conserves. Protocole 35 : tous les appareils doivent installer 0.37.0.
+
+Validation : service en production, invitations natives et quatre instances locales, arrivee tardive, objectifs partages et retour du groupe au salon. Le test reel Quest/telephone et deux reseaux Internet distincts reste a confirmer. Connexion de jeu P2P directe, sans relais pour les reseaux CGNAT. Les 72 fps soutenus restent a mesurer sur casque.
