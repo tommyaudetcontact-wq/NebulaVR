@@ -1,22 +1,22 @@
 {
-  "version": "0.28.0",
-  "versionCode": 34,
-  "protocolVersion": 26,
+  "version": "0.29.0",
+  "versionCode": 35,
+  "protocolVersion": 27,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.28.0/Nebula-VR-Quest-0.28.0.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.28.0/Nebula-Android-0.28.0.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.29.0/Nebula-VR-Quest-0.29.0.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.29.0/Nebula-Android-0.29.0.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.28.0.apk",
-      "bytes": 104655479,
-      "sha256": "50a0f47c0c79fb91c0e996285994bd1f767012cbf93d645d3d206ba7c87854d1"
+      "name": "Nebula-VR-Quest-0.29.0.apk",
+      "bytes": 104669831,
+      "sha256": "44c44fd3712eef5133183186a3693bb644414d38919f2375b5e10d603816f33a"
     },
     "mobile": {
-      "name": "Nebula-Android-0.28.0.apk",
-      "bytes": 99069443,
-      "sha256": "5bda9d7fb45d0aa9c072049f49d0ce5b2529c70749f7f630ea50e5436636764d"
+      "name": "Nebula-Android-0.29.0.apk",
+      "bytes": 99083791,
+      "sha256": "417f3270e42acdcc2b871f4e191575484de0b7975cf13fa8785894badcddd6ce"
     }
   },
   "notes": "Nebula VR : Quest + Android, coop directe jusqu’à 4, niveau 1 et expeditions procedurales. Validation materielle croisee encore requise."

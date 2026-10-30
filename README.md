@@ -48,3 +48,12 @@ Les groupes mélangent sentinelles, drones et deux lourds blindés. Les ennemis 
 Les parcours ont été testés avec déplacement et collisions réels, les commandes tactiles et la coop à quatre instances locales vérifiées. **Protocole 26 : utiliser 0.28.0 sur tous les appareils.** Résolution fixe conservée; les 72 fps constants et la coop Quest + téléphone sur plusieurs réseaux restent à mesurer sur matériel.
 
 Référence : [The Golden Bolt, rétrospective PS2](https://www.youtube.com/watch?v=UwYu8hPeEu4). Étude ciblée de la transcription et de séquences de la trilogie; pas un visionnage intégral des huit heures. Cette première passe n'ajoute pas encore de progression des armes par expérience.
+
+## 0.29 — Corrections de l'enregistrement du 30 octobre à 08:01
+Le blaster tire vingt fois avant surchauffe. Son plasma et ses indicateurs deviennent verts; ses deux barres et sa coque rougissent nettement à chaud. Le shockwave et les tirs ennemis prennent une teinte violette. Les humanoïdes cessent de reculer à courte portée : ils approchent et donnent un coup de crosse préparé, évitable et bloqué par les murs.
+
+Drones et gardien Hélios possèdent de nouvelles coques biseautées, des turbines, des ailes et des nacelles. Le boss se brise en sept morceaux physiques et sa destruction produit trois détonations visuelles successives. La cité mêle cuivre, olive et prune. Le trafic passe à douze vaisseaux, avec quatre routes proches et huit lointaines.
+
+Deux rues contournent des bâtiments et un quatrième détour passe derrière une tour, avec un grappin optionnel, des caisses et des soins. Les plateformes de saut et les ferries sont plus petits. Les parcours ont été traversés avec collisions réelles, y compris les trois séquences principales au grappin; les ferries demandent maintenant davantage de précision et un double saut temporisé.
+
+**Protocole 27 : installer 0.29.0 sur tous les appareils pour la coop.** Résolution fixe et plafond des éclairages d'effets conservés. Les 72 fps constants ne sont pas certifiés; la version doit être mesurée dans le casque porté, en combat.
