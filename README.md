@@ -122,3 +122,18 @@ Nebula VR 0.34.0 - Corrections de la video 12:08.
 - Protocole 32 : mettre tous les appareils en 0.34.0 pour jouer ensemble.
 
 Resolution principale fixe conservee. Les 72 fps soutenus ne sont pas certifies : un essai casque porte, notamment en visant a la lunette, reste necessaire. Les controles VR et le confort de visee restent a confirmer en usage reel. Internet P2P depend du routeur; pas de relais CGNAT.
+
+
+## 0.35 — Heliopolis aleatoire et visee optique
+
+Nebula VR 0.35.0
+
+- Nouveau mode Niveau 2 aleatoire : graine partagee en coop, quartiers decales et formations ennemies variables. La structure de 11 quartiers, les deux rails, les grappins, les boucles annexes et le final sont conserves pour garder un parcours coherent.
+- Lunette VR : champ optique de 9 degres au lieu de 18 (zoom double), rendu additionnel arrete hors visee.
+- Android : bouton LUNETTE avec grande visee circulaire, reticule et sensibilite fine; tirer et glisser pour orienter la camera restent possibles.
+- VR : maintenir le grip droit equipe le marteau depuis toute position; relacher restaure l'arme precedente. Pour conserver le lancer physique de grenade, la grenade selectionnee se prend et se lance avec le grip gauche.
+- Animations : foulée et levee des pieds accrues en course, transfert de poids, genoux articules, jambes repliees au saut et reception amortie; camera VR et controles conserves. Poses partagees en coop.
+- Nouveaux sons fournis par le joueur : Shockwave et snipers (RescopicSound / Pixabay).
+- Protocole 33 : tous les appareils doivent etre en 0.35.0.
+
+Prototype : resolution fixe conservee; 72 fps soutenus et confort des nouveaux controles restent a mesurer dans le casque. Internet P2P depend du reseau; pas de relais CGNAT.
