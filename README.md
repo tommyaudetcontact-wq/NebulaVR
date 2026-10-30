@@ -25,3 +25,8 @@ Rotation cohérente des cuisses, genoux, bottes, hanches et queue. Le ragdoll co
 
 ## 0.25 — Combat mobile
 Les robots humanoïdes combattent au fusil et reculent si le joueur s'approche trop; les petits robots gardent leur bond. Le tir mobile permet de faire pivoter la caméra avec le doigt maintenu sur le bouton, même en glissant à l'extérieur. Les projectiles ennemis partent du canon, avec l'orientation du fusil synchronisée en coop. Grenades et chargeurs explosifs mobiles suivent un arc sous la gravité. Le lancer physique VR reste conservé. **Protocole 23 : mettre tous les appareils en 0.25.0 pour jouer ensemble.**
+
+## 0.26 — Héliopolis, niveau 2
+Choisir **Niveau 2** dans le menu pour explorer une cité solaire de onze quartiers : 528 mètres de parcours, trafic aérien, chantier animé, monuments orbitaux, ascenseurs et traversées au grappin à un, deux puis trois ancrages. Les sentinelles expérimentales se repositionnent entre leurs rafales et réagissent aux impacts; les drones tombent physiquement. Décocher **Ennemis expérimentaux** remet les anciens robots dans ce niveau. Le niveau 1 et le mode procédural restent disponibles.
+
+Le tir mobile conserve son doigt même quand le pouce de déplacement est relâché; une arme vide recharge automatiquement si le tir est maintenu. Résolution fixe et absence de flou temporel conservées. Le regroupement des décors réduit les appels de dessin, mais les **72 fps soutenus sur Quest restent à confirmer par des mesures casque porté en combat**. Protocole coop **24** : utiliser **0.26.0** sur tous les appareils.
