@@ -77,3 +77,18 @@ Les caisses partagent leur modèle visible et les personnages immobiles sur un s
 - Niveau 1, procedural et coop quatre joueurs conserves. Protocole 29 : installer 0.31.0 sur tous les appareils.
 
 Resolution fixe conservee. Les tests automatiques ne certifient pas les 72 fps constants : la derniere mesure casque porte de 0.29 variait de 64 a 73 fps. Cette version reste a mesurer. Internet P2P depend du routeur; pas de relais CGNAT.
+
+## 0.32 — Rails et précision
+
+Nebula VR 0.32.0 - Video 10:51 : rails et precision.
+
+- Quatre longues rues sont remplacees par des doubles rails de grind autour des tours. Accrochage en approchant, glisse a 12 m/s, changement assiste de rail au stick, sauts et obstacles sur les voies. Les passages au grappin apprecies restent en place.
+- Nouvelle arme de precision disponible des le depart (cinquieme arme). Maintenir la gachette puis relacher : charge jusqu'a 2,2 secondes, vibrations et recul progressifs, 2 a 10 degats, portee 110 metres. Une seule cartouche; pas de recharge automatique.
+- Recharge VR : grip gauche sur la cartouche a la ceinture, insertion dans la chambre, puis tirer et relacher la culasse. Recharge mobile animee en trois phases pendant 2,5 secondes.
+- Trois snipers sur perchoirs : visibilite et engagement a longue distance, tir toutes les 3,2 secondes, projectiles rapides depuis le canon. Fusil et cartouche representes en coop.
+- Lance-pierre : assistance initiale discrete (cone d'environ 3 degres). Les rebonds ciblent ennemis et caisses; en l'absence de cible, un seul dernier saut au sol puis disparition.
+- Boulons : courbes d'aspiration plus serrees, sans gros cyclone; les petits reculs du gant sont conserves.
+- Ponts de retour raccordes aux plateformes, rambardes ouvertes au bon endroit et renforts sous les ponts. Trois publicites animees de vaisseaux sur les facades. Couche de nuages opaque sous la ville pour masquer le vide, sans brouillard volumetrique devant la camera.
+- Images a resolution fixe, musique, blaster violet, ragdolls, niveau 1, procedural et coop quatre joueurs conserves. Protocole 30 : utiliser 0.32.0 sur tous les appareils.
+
+Les tests automatiques ne certifient pas les 72 fps constants sur Quest. La derniere mesure casque porte exploitable de 0.29 variait de 64 a 73 fps; cette version reste a mesurer. Internet P2P depend du routeur; pas de relais CGNAT.
