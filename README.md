@@ -39,3 +39,12 @@ Arbres remplacés par des monuments orbitaux, panneaux flottants et textes déco
 ## 0.27.1 — Trafic allégé
 Six vaisseaux au total : deux passages occasionnels proches et quatre routes lointaines au-dessus des bâtiments. Géométries des effets et collisions des ragdolls partagées en mémoire; éclairages temporaires limités sur Quest. Résolution fixe conservée. La mesure de 0.27.0 variait de 64 à 72 fps : les 72 fps constants ne sont pas encore validés. Compatible avec le protocole 25.
 
+
+## 0.28 — Exploration, rythme et armes
+Première adaptation de la rétrospective PS2 fournie : trois détours reviennent à leur place de départ dans Héliopolis, avec deux cellules hors de la rue principale et un détour de ravitaillement. Deux parcours demandent des sauts; le troisième reste accessible à pied. Les trois phases principales de grappin et le gardien volant restent présents.
+
+Les groupes mélangent sentinelles, drones et deux lourds blindés. Les ennemis retiennent une dernière position connue, cherchent temporairement derrière un obstacle puis retournent au poste. Une charge orange sur leur fusil annonce les rafales et se synchronise en coop. Le blaster possède des ailettes thermiques mobiles; le shockwave montre des mâchoires de compression et des pistons au tir. Le plasma bleu et les impacts existants sont conservés.
+
+Les parcours ont été testés avec déplacement et collisions réels, les commandes tactiles et la coop à quatre instances locales vérifiées. **Protocole 26 : utiliser 0.28.0 sur tous les appareils.** Résolution fixe conservée; les 72 fps constants et la coop Quest + téléphone sur plusieurs réseaux restent à mesurer sur matériel.
+
+Référence : [The Golden Bolt, rétrospective PS2](https://www.youtube.com/watch?v=UwYu8hPeEu4). Étude ciblée de la transcription et de séquences de la trilogie; pas un visionnage intégral des huit heures. Cette première passe n'ajoute pas encore de progression des armes par expérience.
