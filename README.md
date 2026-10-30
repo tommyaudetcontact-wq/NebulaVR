@@ -106,3 +106,19 @@ Nebula VR 0.33.0 - Corrections de la video 11:26.
 - Resolution fixe, nuages sous la ville, trafic, musique, autres armes et modes conserves. Protocole 31 : mettre tous les appareils en 0.33.0 pour la coop.
 
 Les 72 fps soutenus restent a mesurer sur cette version dans le casque porte. Les tests locaux et les captures PC ne les certifient pas. Internet P2P depend du routeur; pas de relais CGNAT.
+
+## 0.34 — Lunette, refroidissement et tactique
+
+Nebula VR 0.34.0 - Corrections de la video 12:08.
+
+- Laser de precision : tir immediat a l'appui, pleine puissance, puis deux secondes de refroidissement. Le maintien de charge, la cartouche, la porte de chambre et la culasse sont retires. Le dessus du fusil est remodele avec des ailettes de refroidissement.
+- Lunette fonctionnelle : vue grossie avec reticule, rendue dans l'oculaire quand un oeil est aligne. Le rendu supplementaire 512 x 512 est arrete hors visee. Sur Android, maintenir le bouton de tir resserre la vue.
+- Prise a deux mains : orientation calculee avec les points de prise du modele, amortissement du suivi et main avant posee sous le fusil. Gant, poignet et bras suivent cette prise; la manette physique et la camera ne sont pas deplacees. Representation partagee en coop.
+- IA : les tireurs restent repartis sur leurs postes avant l'entree dans le quartier; une fois engage, le groupe partage pression, couverture et deplacements lateraux. Les positions de tir evitent les obstacles. Le suivi vise avec un retard et une dispersion sur les cibles mobiles. Retour au poste apres grand eloignement conserve.
+- Rails : tubes continus, extremites avancees sur les plateformes et fixations visibles. Deux sections, deux sens, saut simple sur la meme voie et saut + joystick pour changer de voie conserves.
+- Boulons : spirale plus ample autour d'un axe commun vers la main, sans effet ajoute lorsqu'il n'y a aucun boulon. Petit recul du gant a chaque arrivee conserve.
+- Publicites retravaillees : vaisseaux Helion, Nova Noodles et cellules Ion+, avec compositions colorees, prix et produits animes. Atlas de 72 images, sans decodage video a l'execution.
+- Brume basse renforcee sous la cite, avec relief doux et sans brouillard devant la camera. Musique, trafic, grappins, modes et autres armes conserves.
+- Protocole 32 : mettre tous les appareils en 0.34.0 pour jouer ensemble.
+
+Resolution principale fixe conservee. Les 72 fps soutenus ne sont pas certifies : un essai casque porte, notamment en visant a la lunette, reste necessaire. Les controles VR et le confort de visee restent a confirmer en usage reel. Internet P2P depend du routeur; pas de relais CGNAT.
