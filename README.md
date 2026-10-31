@@ -256,3 +256,18 @@ Validation : regles et effondrement des six cibles, tirs d un invite, quatre ins
 ### 0.40.1
 
 Le plasma du blaster s arrete sur la surface destructible touchee, en local et chez les autres joueurs. Modes et protocole 37 conserves.
+
+
+### 0.41.0
+
+Nebula VR 0.41.0 — Vallée sylvestre et destruction articulée
+
+- Arène refaite : relief végétal, rivière, ponts, arbres à larges couronnes, fougères, falaises ocres et refuges industriels arrondis. Référence visuelle : Novalis PS2 (https://www.youtube.com/watch?v=OK0CJgQEKM0), avec modèles originaux pour Nebula.
+- Rover et appareil volant reconstruits dans la palette ivoire/olive/laiton de Nebula. Roues détaillées, garde-boue, arceau, cockpit, réacteurs et tourelle plasma orientable.
+- Rover à deux places indépendantes : conducteur et tireur. Joueurs et bots peuvent occuper chaque poste, y compris un équipage mixte. X gauche / E ou EMBARQUER sur mobile près d'une place libre; même commande pour sortir. Une place tenue par un bot allié peut être reprise par un joueur.
+- Les bots choisissent des places libres, conduisent sur le graphe de navigation, se dégagent en marche arrière et visent avec la tourelle. Hors véhicule, X/E/ALLIE appelle un bot ami pour accompagner le joueur.
+- Démolition : façades plus détaillées, sections d'étages reliées par joints physiques, rupture sous contrainte, fragmentation à l'impact, inertie et rebonds des débris, poussière 3D et sons originaux de structure/impact.
+- Budget borné à 64 corps dynamiques et 360 groupes de gravats; les morceaux supplémentaires utilisent une trajectoire balistique simplifiée. La destruction est une simulation modulaire, pas le moteur Geo-Mod.
+- Deux sièges, visée de tourelle, dégâts et destruction synchronisés. Protocole 38 : mettre tous les appareils en 0.41.0 pour jouer ensemble.
+
+Validation : règles arène/démolition, embarquement autonome, conduite et tir IA, poste de tireur d'un invité réseau, quatre instances natives et arrivée tardive en démolition. Captures natives inspectées. Les 72 fps soutenus dans un Quest porté restent à mesurer; aucune réduction de résolution ajoutée. Connexion P2P Internet dépendante du routeur, sans relais CGNAT.
