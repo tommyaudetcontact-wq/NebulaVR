@@ -216,3 +216,21 @@ Nebula VR 0.38.0 - Commandes mobiles et mises a jour integrees
 - Coop et gameplay 0.37.1 conserves, protocole 35.
 
 La 0.37.1 doit etre mise a jour manuellement une derniere fois pour recevoir le nouveau module. L installation automatique native sur Quest reste a valider sur appareil; les controles et la logique de telechargement/verification ont passe 13 tests locaux. Internet P2P depend toujours du routeur; les 72 fps soutenus ne sont pas certifies.
+
+
+## 0.39 - Arene
+
+Nebula VR 0.39.0 - Arene : Vallee Sylvestre
+
+- Deux modes supplementaires : match par equipes (25 eliminations) et capture du drapeau (3 captures), manches de 10 minutes maximum.
+- Jusqu a quatre joueurs humains Quest/Android et zero a six bots Nebula supplementaires, equipes rouge et bleue. Selection du nombre de bots par l hote avant lancement.
+- Nouvelle petite vallee de jour : bases opposees, falaises, reliefs, boisements, boucle de circulation, rochers de couverture et acces aux toits. Geometrie originale.
+- Un rover et un appareil volant par base, pilotables en VR et sur mobile, avec tir monte, destruction et reapparition apres 12 secondes. Un conducteur par vehicule.
+- Bots avec navigation, poursuite, tirs depuis leur arme, deplacements lateraux, objectifs de drapeau, morts physiques et reapparitions. Autorite de l hote pour degats, scores, drapeaux et vehicules.
+- Retour en jeu apres 4 secondes, protection initiale et tirs allies bloques. Drapeau lache a la mort, retour apres 15 secondes et capture seulement si son propre drapeau est a la base.
+- Invitations, arrivee en cours de match, pause, volumes, mises a jour integrees et modes aventure conserves. Protocole 36 : tous les appareils doivent etre en 0.39.
+- Optimisation des bots : 116 maillages regroupes en 19 groupes animes; decors statiques regroupes et roues conservees mobiles.
+
+Commandes vehicules : X gauche en VR, E au clavier ou bouton PILOTER/SORTIR sur mobile. Joystick gauche : avancer/reculer et tourner; gachette/tir : canon. Appareil volant : A/saut pour monter, B/crosse pour descendre (Espace/Ctrl au clavier).
+
+Validation : regles locales, quatre instances natives avec six bots, conduite par un invite, scores de drapeau partages, retour du groupe au salon, tirs PvP reels entre deux instances, mort et reapparition de l hote. Les scenarios multijoueurs tournaient sur le meme PC. Quest/telephone reels et 72 fps soutenus restent a mesurer; pas de garantie entre tous les routeurs Internet/CGNAT.
