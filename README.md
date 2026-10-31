@@ -202,3 +202,17 @@ Nebula VR 0.37.1 - Depart du groupe
 - Gameplay et protocole 35 conserves.
 
 Validation : deux instances natives, boutons reels du menu pour preparer puis lancer la partie; arrivee dans le jeu des deux joueurs. Test Quest/Android reel encore requis.
+
+
+## 0.38 - Commandes et mises a jour
+
+Nebula VR 0.38.0 - Commandes mobiles et mises a jour integrees
+
+- Saut et grappin mobiles : meme diametre et surface tactile que le tir, sans chevauchement entre saut et grappin.
+- Au menu hors partie/groupe, une nouvelle version est telechargee automatiquement depuis les Releases officielles; progression dans le menu.
+- Verification taille/SHA-256, puis module Android natif verifiant le nom de l application, la version et la signature d origine avant installation.
+- Installation via PackageInstaller sans navigateur. Android/Quest peuvent demander l autorisation d installer depuis Nebula et une confirmation systeme. Une partie en cours ne sera pas interrompue.
+- En cas d echec, le jeu reste jouable et le bouton permet de reessayer. Actualisation periodique au menu.
+- Coop et gameplay 0.37.1 conserves, protocole 35.
+
+La 0.37.1 doit etre mise a jour manuellement une derniere fois pour recevoir le nouveau module. L installation automatique native sur Quest reste a valider sur appareil; les controles et la logique de telechargement/verification ont passe 13 tests locaux. Internet P2P depend toujours du routeur; les 72 fps soutenus ne sont pas certifies.
