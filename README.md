@@ -258,9 +258,9 @@ Validation : regles et effondrement des six cibles, tirs d un invite, quatre ins
 Le plasma du blaster s arrete sur la surface destructible touchee, en local et chez les autres joueurs. Modes et protocole 37 conserves.
 
 
-### 0.41.0
+### 0.41.1
 
-Nebula VR 0.41.0 — Vallée sylvestre et destruction articulée
+Nebula VR 0.41.1 — Vallée sylvestre et destruction articulée
 
 - Arène refaite : relief végétal, rivière, ponts, arbres à larges couronnes, fougères, falaises ocres et refuges industriels arrondis. Référence visuelle : Novalis PS2 (https://www.youtube.com/watch?v=OK0CJgQEKM0), avec modèles originaux pour Nebula.
 - Rover et appareil volant reconstruits dans la palette ivoire/olive/laiton de Nebula. Roues détaillées, garde-boue, arceau, cockpit, réacteurs et tourelle plasma orientable.
@@ -268,6 +268,20 @@ Nebula VR 0.41.0 — Vallée sylvestre et destruction articulée
 - Les bots choisissent des places libres, conduisent sur le graphe de navigation, se dégagent en marche arrière et visent avec la tourelle. Hors véhicule, X/E/ALLIE appelle un bot ami pour accompagner le joueur.
 - Démolition : façades plus détaillées, sections d'étages reliées par joints physiques, rupture sous contrainte, fragmentation à l'impact, inertie et rebonds des débris, poussière 3D et sons originaux de structure/impact.
 - Budget borné à 64 corps dynamiques et 360 groupes de gravats; les morceaux supplémentaires utilisent une trajectoire balistique simplifiée. La destruction est une simulation modulaire, pas le moteur Geo-Mod.
-- Deux sièges, visée de tourelle, dégâts et destruction synchronisés. Protocole 38 : mettre tous les appareils en 0.41.0 pour jouer ensemble.
+- Deux sièges, visée de tourelle, dégâts et destruction synchronisés. Protocole 38 : mettre tous les appareils en 0.41.1 pour jouer ensemble.
 
 Validation : règles arène/démolition, embarquement autonome, conduite et tir IA, poste de tireur d'un invité réseau, quatre instances natives et arrivée tardive en démolition. Captures natives inspectées. Les 72 fps soutenus dans un Quest porté restent à mesurer; aucune réduction de résolution ajoutée. Connexion P2P Internet dépendante du routeur, sans relais CGNAT.
+
+
+### 0.41.1
+
+Nebula VR 0.41.1 — Gravats solides et surfaces conservées
+
+- Même palette, même métal, rugosité et émission lumineuse avant et après rupture. Suppression de la recoloration des pièces endommagées.
+- La fragmentation conserve les géométries et détails des sections; les fragments frappés sont séparés en corps physiques, au lieu du remplacement par des formes génériques.
+- Tous les groupes de débris restent solides : suppression du passage en trajectoire cosmétique sans collision. Les débris se heurtent, s'empilent, s'endorment naturellement et se réveillent lorsqu'ils sont poussés.
+- Collision de chaque élément structurel conservée dans les sections composées, au lieu des grandes enveloppes par étage et de la limite de huit formes par groupe.
+- L'objectif accepte les gravats empilés et stabilisés. Arène, véhicules à deux places et compagnons conservés.
+- Protocole 39 : installer 0.41.1 sur tous les appareils pour la coop.
+
+Validation : empilement réel de trois corps, réveil par impulsion, absence de retrait de collision sous faible budget, paramètres de surfaces, géométrie ronde, effondrement des six bâtiments et réseau avec arrivée tardive. Plus de physique augmente le coût : les 72 fps soutenus sur Quest restent à mesurer, sans promesse de maintien lors de l'effondrement simultané des six cibles.
