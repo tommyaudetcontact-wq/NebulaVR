@@ -234,3 +234,20 @@ Nebula VR 0.39.0 - Arene : Vallee Sylvestre
 Commandes vehicules : X gauche en VR, E au clavier ou bouton PILOTER/SORTIR sur mobile. Joystick gauche : avancer/reculer et tourner; gachette/tir : canon. Appareil volant : A/saut pour monter, B/crosse pour descendre (Espace/Ctrl au clavier).
 
 Validation : regles locales, quatre instances natives avec six bots, conduite par un invite, scores de drapeau partages, retour du groupe au salon, tirs PvP reels entre deux instances, mort et reapparition de l hote. Les scenarios multijoueurs tournaient sur le meme PC. Quest/telephone reels et 72 fps soutenus restent a mesurer; pas de garantie entre tous les routeurs Internet/CGNAT.
+
+
+## 0.40 - Test de destruction
+
+Nebula VR 0.40.0 - Banc d armes : demolition
+
+- Nouveau mode accessible par Banc d armes / demolition : six batiments differents dans le vocabulaire architectural d Heliopolis, dont deux tours de 42 et 52 metres hors couronnement. Aucun bot ni vehicule dans ce mode.
+- Parois, vitres, poteaux, poutres et planchers adressables individuellement. Les armes existantes, la masse tenue/lancee, les coups de crosse et les grenades endommagent les pieces touchees.
+- Graphe de soutiens : une vitre ne porte pas les etages. Les appuis survivants reprennent la charge et peuvent ceder; les sections privees d appui passent en rigid bodies, puis se fragmentent davantage au contact.
+- Gros debris interactifs, impacts secondaires, gravats persistants et inertie. Simulation limitee en nombre de corps actifs : les debris supplementaires suivent une trajectoire balistique puis se posent contre la geometrie statique.
+- Objectif partage : la partie se termine quand les six batiments ont perdu leur structure debout et se sont effondres.
+- Synchronisation des degats, sections detachees, gravats et fin de partie entre quatre joueurs. Un joueur arrivant en cours de test recoit la destruction existante. Paquets de mouvement fractionnes pour rester sous le MTU.
+- Modes aventure et arene, pause, volumes et mises a jour integrees conserves. Protocole 37 : installer 0.40 sur tous les appareils.
+
+Reference visuelle : Red Faction Guerrilla, videos https://www.youtube.com/watch?v=Oe8LWlakNa8 et https://www.youtube.com/watch?v=1remxGqsu3U . Il s agit d une premiere simulation modulaire adaptee a Nebula/Quest, avec un modele de charge simplifie, et non du moteur Geo-Mod original.
+
+Validation : regles et effondrement des six cibles, tirs d un invite, quatre instances natives, arrivee tardive retrouvant les degats, fin de mission et retour du groupe au salon. Rendu natif inspecte avant et apres effondrement. Tests executes sur PC; performances soutenues a 72 fps dans le casque encore a mesurer. P2P Internet toujours dependant du routeur, sans relais CGNAT.
