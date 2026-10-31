@@ -191,3 +191,14 @@ Nebula VR 0.37.0 — Joueurs, invitations et parties ouvertes
 - Gameplay, camera mobile, armes et commandes de la 0.36 conserves. Protocole 35 : tous les appareils doivent installer 0.37.0.
 
 Validation : service en production, invitations natives et quatre instances locales, arrivee tardive, objectifs partages et retour du groupe au salon. Le test reel Quest/telephone et deux reseaux Internet distincts reste a confirmer. Connexion de jeu P2P directe, sans relais pour les reseaux CGNAT. Les 72 fps soutenus restent a mesurer sur casque.
+
+
+## 0.37.1 - Preparation du groupe
+
+Nebula VR 0.37.1 - Depart du groupe
+
+- Le bouton JE SUIS PRET est visible pour les invites dans tous les onglets, a gauche sous le lancement, sans chevauchement avec les invitations.
+- Le bouton de l hote indique ATTENTE DES JOUEURS tant que le salon prive attend leur confirmation.
+- Gameplay et protocole 35 conserves.
+
+Validation : deux instances natives, boutons reels du menu pour preparer puis lancer la partie; arrivee dans le jeu des deux joueurs. Test Quest/Android reel encore requis.
