@@ -285,3 +285,21 @@ Nebula VR 0.41.1 — Gravats solides et surfaces conservées
 - Protocole 39 : installer 0.41.1 sur tous les appareils pour la coop.
 
 Validation : empilement réel de trois corps, réveil par impulsion, absence de retrait de collision sous faible budget, paramètres de surfaces, géométrie ronde, effondrement des six bâtiments et réseau avec arrivée tardive. Plus de physique augmente le coût : les 72 fps soutenus sur Quest restent à mesurer, sans promesse de maintien lors de l'effondrement simultané des six cibles.
+
+
+### 0.42.0
+
+Nebula VR 0.42.0 — Mini Nuke et arène à trois voies
+
+- Sixième arme : Mini Nuke Laucher. Modèle validé dans la démo, exporté puis regroupé en dix groupes de rendu Godot. B droit / Tab pour parcourir les armes en VR/PC; sixième icône radioactive sur Android. Maintenir le tir 0,6 s pour charger; refroidissement de 3 s.
+- Projectile et détonation calculés par l'hôte. Explosion rose/mauve, éclairage coloré transitoire, onde de pression, panache volumétrique 3D et étincelles. Dégâts et projection sur robots, joueurs d'arène, véhicules et structures destructibles. Les décors non destructibles des niveaux aventure gardent leur comportement existant.
+- Arène élargie : terrain d'environ 180 × 128 m, bases espacées de 120 m, trois voies reliées par des traversées distinctes. Route centrale, passage forestier couvert au nord et pont plus large au sud pour les véhicules, avec changements de voie latéraux.
+- Deux bases de 20 × 15 m sur deux niveaux, appuis et façades destructibles. Les dégâts, sections détachées, gravats et état à l'arrivée tardive sont partagés. Les gravats gardent leurs collisions et leur apparence; les répliques côté invité restent solides pour les déplacements.
+- Atlas original de feuillages découpés, branches feuillues, fougères et plantes fleuries, animation légère du vent, détail de surface sur terrain, pierre et métal.
+- Navigation des bots répartie entre les routes, coureurs du drapeau et pilotes; franchissement des petites bordures pour les rovers. Conducteur et tourelle restent accessibles aux humains et aux bots.
+- Onde de pression réfractive adaptée aux autres armes : front directionnel de 12 m pour le shockwave; onde de grenade et version plus courte et compacte pour le chargeur explosif. Le rayon correct est transmis en coop. Aucun nouveau gros panache ni éclairage ajouté par ces ondes.
+- Protocole 40 : installer 0.42.0 sur tous les appareils pour jouer ensemble.
+
+Validation : charge et cooldown, requêtes invalides, robot aventure en ragdoll, destruction, voies traversables, base stable puis effondrement, traversée réelle du pont en rover, bot prenant et rapportant un drapeau, quatre instances natives dont arrivée tardive, conduite/tourelle réseau et régressions des contrôles/pause/volumes. Rendus natifs inspectés, y compris le volume vu de près.
+
+Sur Quest : résolution fixe conservée, budget du panache limité à un volume proche et deux lumières transitoires, échantillonnage réduit du shader volumétrique. Les 72 fps soutenus sur casque porté restent à mesurer; plus de physique lors des grosses destructions reste coûteux. Internet P2P dépend du routeur, sans relais CGNAT.
