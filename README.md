@@ -251,3 +251,8 @@ Nebula VR 0.40.0 - Banc d armes : demolition
 Reference visuelle : Red Faction Guerrilla, videos https://www.youtube.com/watch?v=Oe8LWlakNa8 et https://www.youtube.com/watch?v=1remxGqsu3U . Il s agit d une premiere simulation modulaire adaptee a Nebula/Quest, avec un modele de charge simplifie, et non du moteur Geo-Mod original.
 
 Validation : regles et effondrement des six cibles, tirs d un invite, quatre instances natives, arrivee tardive retrouvant les degats, fin de mission et retour du groupe au salon. Rendu natif inspecte avant et apres effondrement. Tests executes sur PC; performances soutenues a 72 fps dans le casque encore a mesurer. P2P Internet toujours dependant du routeur, sans relais CGNAT.
+
+
+### 0.40.1
+
+Le plasma du blaster s arrete sur la surface destructible touchee, en local et chez les autres joueurs. Modes et protocole 37 conserves.
