@@ -1,23 +1,23 @@
 {
-  "version": "0.44.1",
-  "versionCode": 58,
+  "version": "0.44.2",
+  "versionCode": 59,
   "protocolVersion": 42,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.1/Nebula-VR-Quest-0.44.1.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.1/Nebula-Android-0.44.1.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.2/Nebula-VR-Quest-0.44.2.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.2/Nebula-Android-0.44.2.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.44.1.apk",
-      "bytes": 118471633,
-      "sha256": "4af6743bf01adbddc9f63a04d0a85838401ce15ed865c2bcf18020c7d5c69564"
+      "name": "Nebula-VR-Quest-0.44.2.apk",
+      "bytes": 118476686,
+      "sha256": "1b1d0eab98aefb9cc29244d4a754ea84d4628a6a5faef5face005eea524898d5"
     },
     "mobile": {
-      "name": "Nebula-Android-0.44.1.apk",
-      "bytes": 112885617,
-      "sha256": "df750073d589039e32cf2f818251c97a5f38dbbbc2e15919e0904fc2967667b9"
+      "name": "Nebula-Android-0.44.2.apk",
+      "bytes": 112890666,
+      "sha256": "099f03b8545a19312c22074e7e369c1bd45d887bfac18832ad0cd7ce3cae568a"
     }
   },
-  "notes": "Arene agrandie, bases a deux etages et champs anti-spawn-kill en equipes (desactives en CTF), vehicules VR a la troisieme personne, suspensions a grand debattement, musique du niveau 3. Mettre Quest et Android en 0.44.1 pour jouer ensemble. 72 fps et confort VR restent a mesurer sur casque porte."
+  "notes": "Buggy moins glissant, camera VR plus haute et reculee, corrections de sortie des bots et nouvel habillage des bases. Protocole 42. Fluidite 72 fps a verifier sur casque."
 }
