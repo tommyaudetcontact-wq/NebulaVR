@@ -1,23 +1,23 @@
 {
-  "version": "0.42.1",
-  "versionCode": 54,
+  "version": "0.42.2",
+  "versionCode": 55,
   "protocolVersion": 40,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.42.1/Nebula-VR-Quest-0.42.1.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.42.1/Nebula-Android-0.42.1.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.42.2/Nebula-VR-Quest-0.42.2.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.42.2/Nebula-Android-0.42.2.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.42.1.apk",
-      "bytes": 118423925,
-      "sha256": "3f1320b5041a17151311ebdc1ec80d95d6a0970ebac8999798f3753bd96b6192"
+      "name": "Nebula-VR-Quest-0.42.2.apk",
+      "bytes": 118459842,
+      "sha256": "49f21fe0aa5deb348698e46de7a2754aeb6383d77687d452a4e662a540c88b4f"
     },
     "mobile": {
-      "name": "Nebula-Android-0.42.1.apk",
-      "bytes": 112837905,
-      "sha256": "f0cfc4809c96ff1c37c0f57c838ed19029456493910c62d0b8c8fb68f35e7ccb"
+      "name": "Nebula-Android-0.42.2.apk",
+      "bytes": 112873818,
+      "sha256": "ba0ce1a4630b2296d5c9c21aaf4a2b258126fa84ae5dceee6c1dd6d63215426e"
     }
   },
-  "notes": "Tir Mini Nuke immédiat, arène texturée et destruction optimisée. Quest + Android; mesure des 72 fps sur casque porté encore requise."
+  "notes": "Destruction et calcul du panache optimisés sur Quest/Android. Cible 72 Hz et résolution fixe conservées; essai sur casque porté requis."
 }

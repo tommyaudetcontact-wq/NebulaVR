@@ -320,3 +320,20 @@ Nebula VR 0.42.1 — Débris optimisés et surfaces détaillées
 Validation : tests de tir immédiat/refroidissement, empilement et réveil des débris, six bâtiments détruits et objectif terminé, deux grandes tours, textures rendues dans le moteur, réseaux à quatre instances avec arrivée tardive et dégâts du Mini Nuke.
 
 Comparaison sur le même PC natif, deux tours : appels de dessin de 1 635 à environ 140, corps physiques de 462 à 176; coût physique moyen d’environ 12,5 à 3,9 ms dans le relevé comparatif. Ce n’est pas une mesure Quest. Les 72 fps soutenus et la clarté pendant les effondrements restent à vérifier en portant le casque. Les grosses destructions restent plus coûteuses qu’une scène intacte.
+
+
+### 0.42.2
+
+Nebula VR 0.42.2 — Destruction sur Quest et Android
+
+- Les dégâts sur panneaux proches sont regroupés en petits ensembles physiques, avec leur géométrie, détails et matériaux conservés. Leur création passe par une file de travail au lieu de créer plusieurs fragments pour chaque panneau dans une seule image.
+- Les sections de tour en chute sont fragmentées en ensembles plus cohérents sur Quest/Android. Chaque débris produit reste solide et physique; les espaces vides entre éléments ne sont pas remplis par une grosse boîte.
+- Les impulsions des explosions du Mini Nuke sont conservées pour les fragments créés par la file différée. La destruction, les dégâts et les débris restent transmis par l’hôte, y compris lors d’une arrivée tardive.
+- Le panache reste un volume 3D rose/mauve : ses valeurs de bruit sont préparées dans une petite texture 3D, pour remplacer les calculs répétés de bruit dans chaque pixel. Nombre de pas, silhouette, couleurs, lumière et onde conservés.
+- Résolution VR fixe, anticrénelage et cible 72 Hz inchangés. Un journal local de performance est aussi enregistré dans le dossier externe propre à l’application pour permettre une lecture USB après un essai.
+
+Validation : scénario de deux tours frappées par plusieurs explosions, 656 corps physiques au maximum en 0.42.1 contre 95 avec la nouvelle politique Quest/Android dans le test PC; collisions et effondrement des deux tours conservés. Tests de tir, débris, objectif des six bâtiments, résolution fixe, onde et réseau à quatre instances avec arrivée tardive. Nouveau shader inspecté dans le moteur natif.
+
+Les 72 fps soutenus pendant les effondrements restent à vérifier sur casque porté. Le test PC ne constitue pas une mesure Quest.
+
+Les nouveaux véhicules, la tourelle plus haute, les flammes bleues et la nouvelle maquette d’arène restent uniquement dans l’atelier 3D local en attente de validation. Ils ne sont pas intégrés à cet APK.
