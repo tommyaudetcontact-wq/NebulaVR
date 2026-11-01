@@ -303,3 +303,20 @@ Nebula VR 0.42.0 — Mini Nuke et arène à trois voies
 Validation : charge et cooldown, requêtes invalides, robot aventure en ragdoll, destruction, voies traversables, base stable puis effondrement, traversée réelle du pont en rover, bot prenant et rapportant un drapeau, quatre instances natives dont arrivée tardive, conduite/tourelle réseau et régressions des contrôles/pause/volumes. Rendus natifs inspectés, y compris le volume vu de près.
 
 Sur Quest : résolution fixe conservée, budget du panache limité à un volume proche et deux lumières transitoires, échantillonnage réduit du shader volumétrique. Les 72 fps soutenus sur casque porté restent à mesurer; plus de physique lors des grosses destructions reste coûteux. Internet P2P dépend du routeur, sans relais CGNAT.
+
+
+### 0.42.1
+
+Nebula VR 0.42.1 — Débris optimisés et surfaces détaillées
+
+- Mini Nuke : tir immédiat à l’appui, sans maintien. Un appui produit un projectile; relâcher la gâchette avant le suivant. Refroidissement de trois secondes conservé.
+- Arène : textures originales de sol, roche stratifiée et métal avec relief de surface, joints et fixations. Coordonnées à l’échelle du monde, mipmaps et filtrage anisotrope pour stabiliser les détails à distance. Les gravats des bases gardent ces surfaces.
+- Destruction : géométrie des débris regroupée par matériau et forme. La transformation de chaque corps est transmise au GPU dans une petite texture; les détails suivent les morceaux physiques sans recréer des centaines de rendus séparés.
+- Détachement progressif des sections sur plusieurs images et file de fractures. Les sections restent visibles et solides jusqu’à leur détachement. Les débris conservent leurs collisions, leurs matériaux et peuvent se réveiller après repos.
+- Colliders adjacents fusionnés seulement lorsque leur union reste une boîte exacte, sans remplir les espaces vides; formes réutilisées, groupes de débris plus cohérents. Les structures stables évitent les recalculs de support inutiles.
+- Préparation du shader des gravats pendant le chargement VR. Pas de baisse automatique de résolution, de flou temporel ou de fovéation dynamique ajoutée. Mesures de destruction ajoutées aux journaux de performance.
+- Coop : fractures et état des bâtiments synchronisés, y compris une arrivée tardive pendant la démolition. Protocole 40 conservé.
+
+Validation : tests de tir immédiat/refroidissement, empilement et réveil des débris, six bâtiments détruits et objectif terminé, deux grandes tours, textures rendues dans le moteur, réseaux à quatre instances avec arrivée tardive et dégâts du Mini Nuke.
+
+Comparaison sur le même PC natif, deux tours : appels de dessin de 1 635 à environ 140, corps physiques de 462 à 176; coût physique moyen d’environ 12,5 à 3,9 ms dans le relevé comparatif. Ce n’est pas une mesure Quest. Les 72 fps soutenus et la clarté pendant les effondrements restent à vérifier en portant le casque. Les grosses destructions restent plus coûteuses qu’une scène intacte.
