@@ -1,23 +1,23 @@
 {
-  "version": "0.44.4",
-  "versionCode": 61,
-  "protocolVersion": 42,
+  "version": "0.45.0",
+  "versionCode": 62,
+  "protocolVersion": 43,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.4/Nebula-VR-Quest-0.44.4.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.4/Nebula-Android-0.44.4.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.45.0/Nebula-VR-Quest-0.45.0.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.45.0/Nebula-Android-0.45.0.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.44.4.apk",
-      "bytes": 118475526,
-      "sha256": "ab6f4668d4615e5fea0a1de8a192a50c007fa93c5a79a76164e50962690d1d4c"
+      "name": "Nebula-VR-Quest-0.45.0.apk",
+      "bytes": 118480959,
+      "sha256": "3b126630e5a848e34199e62025141e87399e7f5b3b5c5fe27f68faf4c9b4bde5"
     },
     "mobile": {
-      "name": "Nebula-Android-0.44.4.apk",
-      "bytes": 112889510,
-      "sha256": "1cd1999a7e3ff9371014f7d6b1d8dd8ae33b4f40e9184a608e63bf0868a14fa4"
+      "name": "Nebula-Android-0.45.0.apk",
+      "bytes": 112894939,
+      "sha256": "7cd1c2ac9e52fa7c78d10aec6cbf9be8d48fd71506cf2a72ab6cafbb804da49c"
     }
   },
-  "notes": "Pilotage corrige : main droite deplace seulement la camera, joystick droit tourne la vue de 45 degres, buggy suit la direction regardee. Reapparition apres 2 secondes conservee. Protocole 42."
+  "notes": "Nouveau Magnum : un tir toutes les 0.5 s, deux impacts pour tuer un robot standard. Fumee du mini nuke plus dispersee et dissipee en 3.2 s. Protocole 43 : mettre tous les appareils en 0.45.0."
 }
