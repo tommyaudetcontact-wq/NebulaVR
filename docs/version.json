@@ -1,23 +1,23 @@
 {
-  "version": "0.44.2",
-  "versionCode": 59,
+  "version": "0.44.3",
+  "versionCode": 60,
   "protocolVersion": 42,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.2/Nebula-VR-Quest-0.44.2.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.2/Nebula-Android-0.44.2.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.3/Nebula-VR-Quest-0.44.3.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.44.3/Nebula-Android-0.44.3.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.44.2.apk",
-      "bytes": 118476686,
-      "sha256": "1b1d0eab98aefb9cc29244d4a754ea84d4628a6a5faef5face005eea524898d5"
+      "name": "Nebula-VR-Quest-0.44.3.apk",
+      "bytes": 118475414,
+      "sha256": "c9cf03e674d785f647a802278799b8a28a92e8b55e173ef533a19c407709df72"
     },
     "mobile": {
-      "name": "Nebula-Android-0.44.2.apk",
-      "bytes": 112890666,
-      "sha256": "099f03b8545a19312c22074e7e369c1bd45d887bfac18832ad0cd7ce3cae568a"
+      "name": "Nebula-Android-0.44.3.apk",
+      "bytes": 112889394,
+      "sha256": "e76706ed4727b2dc9de1f99999e7c1b4213950a025ac249bf8d19fef71eeffd3"
     }
   },
-  "notes": "Buggy moins glissant, camera VR plus haute et reculee, corrections de sortie des bots et nouvel habillage des bases. Protocole 42. Fluidite 72 fps a verifier sur casque."
+  "notes": "Commandes VR de conduite : main droite pour direction et hauteur de vue, joystick gauche avant-arriere, joystick droit camera par pas de 45 degres. Placement des occupants et tourelle corriges. Reapparition multijoueur apres 2 secondes. Protocole 42."
 }
