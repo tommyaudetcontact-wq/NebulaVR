@@ -1,23 +1,23 @@
 {
-  "version": "0.42.2",
-  "versionCode": 55,
-  "protocolVersion": 40,
+  "version": "0.43.0",
+  "versionCode": 56,
+  "protocolVersion": 41,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.42.2/Nebula-VR-Quest-0.42.2.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.42.2/Nebula-Android-0.42.2.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.43.0/Nebula-VR-Quest-0.43.0.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.43.0/Nebula-Android-0.43.0.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.42.2.apk",
-      "bytes": 118459842,
-      "sha256": "49f21fe0aa5deb348698e46de7a2754aeb6383d77687d452a4e662a540c88b4f"
+      "name": "Nebula-VR-Quest-0.43.0.apk",
+      "bytes": 118454008,
+      "sha256": "ab3d8ee7431f89562a91a7d8106504a6c513adfb3c9db7ecfa063a86820538cd"
     },
     "mobile": {
-      "name": "Nebula-Android-0.42.2.apk",
-      "bytes": 112873818,
-      "sha256": "ba0ce1a4630b2296d5c9c21aaf4a2b258126fa84ae5dceee6c1dd6d63215426e"
+      "name": "Nebula-Android-0.43.0.apk",
+      "bytes": 112867992,
+      "sha256": "4b37183a60ba515a439e502200452e32ad252231cfd208f1922ad81860dfad8e"
     }
   },
-  "notes": "Destruction et calcul du panache optimisés sur Quest/Android. Cible 72 Hz et résolution fixe conservées; essai sur casque porté requis."
+  "notes": "Niveau 3 Elyndra et finale en buggy, suspensions physiques, bots et bases d’arène revus. Quest et Android doivent tous deux être en 0.43.0 pour jouer ensemble. Cible 72 Hz, à mesurer sur casque porté."
 }

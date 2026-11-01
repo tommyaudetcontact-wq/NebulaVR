@@ -322,9 +322,9 @@ Validation : tests de tir immédiat/refroidissement, empilement et réveil des d
 Comparaison sur le même PC natif, deux tours : appels de dessin de 1 635 à environ 140, corps physiques de 462 à 176; coût physique moyen d’environ 12,5 à 3,9 ms dans le relevé comparatif. Ce n’est pas une mesure Quest. Les 72 fps soutenus et la clarté pendant les effondrements restent à vérifier en portant le casque. Les grosses destructions restent plus coûteuses qu’une scène intacte.
 
 
-### 0.42.2
+### 0.43.0
 
-Nebula VR 0.42.2 — Destruction sur Quest et Android
+Nebula VR 0.43.0 — Destruction sur Quest et Android
 
 - Les dégâts sur panneaux proches sont regroupés en petits ensembles physiques, avec leur géométrie, détails et matériaux conservés. Leur création passe par une file de travail au lieu de créer plusieurs fragments pour chaque panneau dans une seule image.
 - Les sections de tour en chute sont fragmentées en ensembles plus cohérents sur Quest/Android. Chaque débris produit reste solide et physique; les espaces vides entre éléments ne sont pas remplis par une grosse boîte.
