@@ -1,23 +1,23 @@
 {
-  "version": "0.47",
-  "versionCode": 66,
+  "version": "0.47.1",
+  "versionCode": 67,
   "protocolVersion": 43,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47/Nebula-VR-Quest-0.47.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47/Nebula-Android-0.47.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.1/Nebula-VR-Quest-0.47.1.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.1/Nebula-Android-0.47.1.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.47.apk",
-      "bytes": 119271535,
-      "sha256": "0a594655bcb12f0e995788f22893f21c7512f0b818c63f898075dcc898d06078"
+      "name": "Nebula-VR-Quest-0.47.1.apk",
+      "bytes": 119616501,
+      "sha256": "d72c11cbbb6bde6efdd1e1aea557bc7ada1a053acc658c5d7190d16cd4fd723e"
     },
     "mobile": {
-      "name": "Nebula-Android-0.47.apk",
-      "bytes": 113685523,
-      "sha256": "ac40b9954cb5afb24531ba49175af4fbace0360a0e181c4468279452373cc7af"
+      "name": "Nebula-Android-0.47.1.apk",
+      "bytes": 114030485,
+      "sha256": "3efbe9a796b247d8f442d6a719041d503f808fdf8c5de3eb1b82f721bfeee728"
     }
   },
-  "notes": "Nouveaux materiaux PBR : textures couleur, normales et rugosite, reflets et finitions adaptes aux surfaces. Proprietes physiques conservees dans les lots de rendu. Magnum : surchauffe de 4 secondes apres 4 tirs consecutifs. Chasseurs : virages plus vifs, inclinaison renforcee et tirs vers le curseur. Buggy et chasseur : ecrasement des adversaires selon la vitesse, avec projection en ragdoll. Protocole 43."
+  "notes": "Materiaux adoucis : robots humanoides en metal lisse, petites fixations sur le plastron, relief discret. Fini les affectations automatiques de roche selon la couleur ou la rugosite. Les matieres naturelles sont explicites. Caisses en bois PBR non metallique, avec grain et rugosite du bois; clous metalliques conserves. Reglages de gameplay 0.47 conserves."
 }
