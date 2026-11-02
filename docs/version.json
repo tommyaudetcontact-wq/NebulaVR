@@ -1,23 +1,23 @@
 {
-  "version": "0.47.3",
-  "versionCode": 69,
+  "version": "0.47.4",
+  "versionCode": 70,
   "protocolVersion": 43,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.3/Nebula-VR-Quest-0.47.3.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.3/Nebula-Android-0.47.3.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.4/Nebula-VR-Quest-0.47.4.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.4/Nebula-Android-0.47.4.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.47.3.apk",
-      "bytes": 119577277,
-      "sha256": "fd912d35a7975265a20e31aa887d2c954b3c062ddabfdb3ba152fd36bf5132d2"
+      "name": "Nebula-VR-Quest-0.47.4.apk",
+      "bytes": 120032833,
+      "sha256": "f9ee02452a25ba35092ab52002bf7879582b972a2d3c44600c41d730a296430b"
     },
     "mobile": {
-      "name": "Nebula-Android-0.47.3.apk",
-      "bytes": 113991261,
-      "sha256": "5056077ef208cd7b46b8411ce3d29a4ee161eed0bac99b55c599be68c44c6c31"
+      "name": "Nebula-Android-0.47.4.apk",
+      "bytes": 114446817,
+      "sha256": "39794eaa0ebd1eface7b9ceb1deb524e8eda9edbc4d9570b89e3c6a87c1fcc58"
     }
   },
-  "notes": "Reflets metalliques plus proches de la reference : capture statique des decors et du ciel au chargement, metal nu plus reflechissant et brossage fin. Une seule sonde par niveau, capture unique et deux emplacements maximum dans l atlas. Bois, tissu, cuir, caoutchouc et peinture restent distincts; pas de relief grossier ajoute. Gameplay conserve."
+  "notes": "Corrections de la video : faces du plastron separees pour supprimer leur conflit de profondeur; grain du bois aligne sur chaque planche et petites crevasses plus visibles; textures fines de finition sur les armes. Filtrage affine a resolution VR fixe et compteur FPS au poignet. Cible 72 Hz conservee, a mesurer pendant un essai en casque."
 }
