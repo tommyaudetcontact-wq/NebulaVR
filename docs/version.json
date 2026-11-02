@@ -1,23 +1,23 @@
 {
-  "version": "0.46.1",
-  "versionCode": 65,
+  "version": "0.47",
+  "versionCode": 66,
   "protocolVersion": 43,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.46.1/Nebula-VR-Quest-0.46.1.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.46.1/Nebula-Android-0.46.1.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47/Nebula-VR-Quest-0.47.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47/Nebula-Android-0.47.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.46.1.apk",
-      "bytes": 120289404,
-      "sha256": "5eaa2cf6179a859738880063fae6153673e56f50c6e96e9033979e90efc921ed"
+      "name": "Nebula-VR-Quest-0.47.apk",
+      "bytes": 119271535,
+      "sha256": "0a594655bcb12f0e995788f22893f21c7512f0b818c63f898075dcc898d06078"
     },
     "mobile": {
-      "name": "Nebula-Android-0.46.1.apk",
-      "bytes": 114703384,
-      "sha256": "ac50e094ea0b6fafb5d6544867256d5333c3ad1f888ef78eeec67e830ad8bb19"
+      "name": "Nebula-Android-0.47.apk",
+      "bytes": 113685523,
+      "sha256": "ac40b9954cb5afb24531ba49175af4fbace0360a0e181c4468279452373cc7af"
     }
   },
-  "notes": "Main droite : visee du curseur qui dirige le buggy, casque independant, joystick droit 45 degres. Vaisseau pilote selon le meme principe, resistance des vehicules portee a 18 PV. Magnum reduit de 15 pour cent avec poignee et canon realignes. Protocole 43."
+  "notes": "Nouveaux materiaux PBR : textures couleur, normales et rugosite, reflets et finitions adaptes aux surfaces. Proprietes physiques conservees dans les lots de rendu. Magnum : surchauffe de 4 secondes apres 4 tirs consecutifs. Chasseurs : virages plus vifs, inclinaison renforcee et tirs vers le curseur. Buggy et chasseur : ecrasement des adversaires selon la vitesse, avec projection en ragdoll. Protocole 43."
 }
