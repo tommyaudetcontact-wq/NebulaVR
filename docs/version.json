@@ -1,23 +1,23 @@
 {
-  "version": "0.47.2",
-  "versionCode": 68,
+  "version": "0.47.3",
+  "versionCode": 69,
   "protocolVersion": 43,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.2/Nebula-VR-Quest-0.47.2.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.2/Nebula-Android-0.47.2.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.3/Nebula-VR-Quest-0.47.3.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.3/Nebula-Android-0.47.3.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.47.2.apk",
-      "bytes": 119575438,
-      "sha256": "b8c7a378bbe22cd464a43f93b621a15340cd7dfe394e1ef0573b26eb04cdfb1c"
+      "name": "Nebula-VR-Quest-0.47.3.apk",
+      "bytes": 119577277,
+      "sha256": "fd912d35a7975265a20e31aa887d2c954b3c062ddabfdb3ba152fd36bf5132d2"
     },
     "mobile": {
-      "name": "Nebula-Android-0.47.2.apk",
-      "bytes": 113989422,
-      "sha256": "8847ed0749852f434b38c6c88333ea52acd39125531fccee971d32996a498e87"
+      "name": "Nebula-Android-0.47.3.apk",
+      "bytes": 113991261,
+      "sha256": "5056077ef208cd7b46b8411ce3d29a4ee161eed0bac99b55c599be68c44c6c31"
     }
   },
-  "notes": "Matieres attribuees par piece : pneus et semelles en caoutchouc, gants et sieges en cuir, vetements en tissu, peau/fourrure mate, armures et carrosseries peintes, fixations metalliques, ecorce en bois, rochers en roche et terrain en terre plus fine. Finitions des poignees des armes corrigees. Relief leger et materiaux partages pour limiter les appels de rendu. Gameplay 0.47 conserve."
+  "notes": "Reflets metalliques plus proches de la reference : capture statique des decors et du ciel au chargement, metal nu plus reflechissant et brossage fin. Une seule sonde par niveau, capture unique et deux emplacements maximum dans l atlas. Bois, tissu, cuir, caoutchouc et peinture restent distincts; pas de relief grossier ajoute. Gameplay conserve."
 }
