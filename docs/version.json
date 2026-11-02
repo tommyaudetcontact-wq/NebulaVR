@@ -1,23 +1,23 @@
 {
-  "version": "0.47.1",
-  "versionCode": 67,
+  "version": "0.47.2",
+  "versionCode": 68,
   "protocolVersion": 43,
   "stage": "prototype",
   "downloads": {
-    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.1/Nebula-VR-Quest-0.47.1.apk",
-    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.1/Nebula-Android-0.47.1.apk"
+    "vr": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.2/Nebula-VR-Quest-0.47.2.apk",
+    "mobile": "https://github.com/tommyaudetcontact-wq/NebulaVR/releases/download/v0.47.2/Nebula-Android-0.47.2.apk"
   },
   "files": {
     "vr": {
-      "name": "Nebula-VR-Quest-0.47.1.apk",
-      "bytes": 119616501,
-      "sha256": "d72c11cbbb6bde6efdd1e1aea557bc7ada1a053acc658c5d7190d16cd4fd723e"
+      "name": "Nebula-VR-Quest-0.47.2.apk",
+      "bytes": 119575438,
+      "sha256": "b8c7a378bbe22cd464a43f93b621a15340cd7dfe394e1ef0573b26eb04cdfb1c"
     },
     "mobile": {
-      "name": "Nebula-Android-0.47.1.apk",
-      "bytes": 114030485,
-      "sha256": "3efbe9a796b247d8f442d6a719041d503f808fdf8c5de3eb1b82f721bfeee728"
+      "name": "Nebula-Android-0.47.2.apk",
+      "bytes": 113989422,
+      "sha256": "8847ed0749852f434b38c6c88333ea52acd39125531fccee971d32996a498e87"
     }
   },
-  "notes": "Materiaux adoucis : robots humanoides en metal lisse, petites fixations sur le plastron, relief discret. Fini les affectations automatiques de roche selon la couleur ou la rugosite. Les matieres naturelles sont explicites. Caisses en bois PBR non metallique, avec grain et rugosite du bois; clous metalliques conserves. Reglages de gameplay 0.47 conserves."
+  "notes": "Matieres attribuees par piece : pneus et semelles en caoutchouc, gants et sieges en cuir, vetements en tissu, peau/fourrure mate, armures et carrosseries peintes, fixations metalliques, ecorce en bois, rochers en roche et terrain en terre plus fine. Finitions des poignees des armes corrigees. Relief leger et materiaux partages pour limiter les appels de rendu. Gameplay 0.47 conserve."
 }
